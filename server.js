@@ -10,8 +10,8 @@ const server = new Hapi.Server({
 	}
 });
 server.connection({
-	host: process.env.IP || "0.0.0.0",
-	port: process.env.PORT || 3000
+	host: "localhost",
+	port: 8080
 });
 
 require("./route.js")(server);
