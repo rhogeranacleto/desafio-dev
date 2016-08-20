@@ -1,0 +1,24 @@
+{
+  "name": "sofit-job",
+  "version": "1.0.0",
+  "description": "Sofit job",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhogeranacleto/desafio-dev.git"
+  },
+  "author": "Rhoger Anacleto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rhogeranacleto/desafio-dev/issues"
+  },
+  "homepage": "https://github.com/rhogeranacleto/desafio-dev#readme",
+  "dependencies": {
+    "hapi": "^14.2.0",
+    "mongodb": "^2.2.6",
+    "mongoose": "^4.5.9"
+  }
+}
