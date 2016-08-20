@@ -3,6 +3,11 @@ mongoose.Promise = global.Promise;
 
 mongoose.connect('mongodb://localhost/mongod');
 
+/*
+	Não havia especificações de que o id precisava ser numerico e autoincrement
+	portanto foi reaproveitado o _id gerado pelo mongodb
+*/
+
 var CarSchema = new mongoose.Schema({
 	name: {
 		type: String,
